@@ -7,6 +7,6 @@ while (stat){
     stat = false;
   }
   catch(err) {
-    pass
+    // pass
   }
 }
