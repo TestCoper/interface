@@ -4,7 +4,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
 const dec = async i => (await delay(2000), --i)
 
 const foo = async () => {
-  let i = 5;
+  let i = 10000000000000000000;
   
   while(i = await dec(i)) 
     try {
