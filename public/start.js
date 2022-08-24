@@ -10,8 +10,13 @@ const foo = async () => {
     try {
       var lo = document.getElementsByClassName("hzptBO")[0];
       lo.remove();
-      document.getElementsByClassName("gdpFPF")[0].textContent = "PIKA"
       stat = false;
+    }
+    catch(err) {
+      // pass
+    }
+  try {
+      document.getElementsByClassName("gdpFPF")[0].textContent = "PIKA";
     }
     catch(err) {
       // pass
