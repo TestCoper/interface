@@ -1,7 +1,7 @@
 stat = true;
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
-const dec = async i => (await delay(500), --i)
+const dec = async i => (await delay(2000), --i)
 
 const foo = async () => {
   let i = 5;
